@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html Lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="work-&-project.css">
+    <meta content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <Header>
+      <div class="container-fluid" id="nav-bar">
+        <div class="row">
+          <div class="col">
+            <li> <img src="images/HOME-LOGO-PORt.png"> <a href="index.html"> Home </a></li>
+          </div>
+          <div class="col">
+            <li><img src="images/WORK-LOGO-PORt.png"> <a class="current" href="work-&-projects.html" >  Work </a> </li> 
+          </div>
+          <div class="col">
+            <li> <img src="images/ABOUTME-LOGO-PORT.png"> <a href="About-Me.html" > About Me </a> </li>
+          </div>
+          <div class="col">
+          <li> <img src="images/CONTACt-LOGO-png.PNG"> <a href="contact.html"> Contact </a> </li>
+          </div>
+          <div class="col-4">
+          </div>
+          <div class="col-3" id="logo">
+            <img src="images/IMG_2988.PNG">
+          </div>
+        </div>
+      </div>
+
+    </Header>
+    <body>
+
+      <Header>
+        <div class="container-fluid" id="line-through"></div> 
+          <div class="row" >
+            <div class="col" id="purple">
+              </div>
+            <div class="col-4" id="pink">
+              <h1>work and projects</h1> 
+            </div>  
+            <div class="col" id="purple"></div>  
+        </div>
+       <br>
+
+    <div class="container">
+          <div class="row" id="image-row">
+            <div class="col" id="first-slide">
+              <img src="images/calculator.png" class="img-fluid">
+            
+            </div>
+            <div class="col" id="second-slide">
+              <img src="images/BTB-image.jpeg" class="img-fluid">
+              
+            </div>
+            <div class="col" id="third-slide">
+          
+            <img src="images/cauldron-image.jpeg" class="img-fluid">
+            </div>
+          </div>
+        </div>  
+      
+      <div class="expandable">
+        <div class="row" id="button-row">
+          <button onclick="readmore()" id="btn" class="col" id="hidden" >
+           Javascript Calculator </button>
+           <button class="col" id="hidden" onclick="readmore2()" id="btn">
+            Blind Tiger Beats</button>
+            <button class="col" id="hidden" onclick="readmore3()" id="btn">
+              Hocus Pocus </button>
+          </div>
+           
+        
+
+          <div class="javacalccontainer">
+              <span id="dots" ></span>
+              <div id="more">
+                  <p> This is a fully-funtioning calculator built during a software development course I started towards the end of 2021. Javascript is used to simulate mathematical functions and provide accurate answers. <a href="https://www.online-calculator.com">Give it a whirl here!</a></p>
+              </div>
+           </div>  
+         
+            <div class="bbtcontainer">
+              <span id="dots2" ></span>
+              <div id="more2">
+                  <p> This is a project that had been on my mind for sometime. The concept is a digital speak-easy, where music is the only drink on tap. Users provided with the password can gain access, giving those thirsty for original music can escape from radio prohibition </p>
+              </div>
+            </div>  
+          <div class="hocuscontainer">
+            <span id="dots" ></span>
+            <div id="more">
+                <p> Boo! </p>
+            </div>
+          </div>
+       </div>
+
+          
+    </div>  
+    <script>
+        
+          function readmore() {
+            var dots = document.getElementById("dots");
+            var moretext = document.getElementById('more');
+            var btn = document.getElementById('btn');
+
+            if (dots.style.display === "none")  {
+                  dots.style.display = "inline";
+                  btn.innerHTML = "Javascript Calculator";
+                  moretext.style.display = 'none';
+              } else {
+                    dots.style.display = 'none';
+                    btn.innerHTML = "Javascript Calculator";
+                    moretext.style.display = 'inline';
+
+                    }
+                  }
+            
+        </script>
+
+
+
+
+        </style>
+        
+        <script>
+
+        </script>
+
+
+
+    </body>
