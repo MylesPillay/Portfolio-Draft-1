@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container-fluid {
+  background-color: #D2EBFA;
+  font-family: 'Dosis', sans-serif;
+  
+}
+#logo {margin-top: 2vh;
+  margin-right: -15vh;
+}
+  
+
+a {
+  color: black;
+}
+  .col:hover {
+    background-color: #FFD6E4;
+    
+}
+
+li {
+  list-style-type: none;
+  color: black;
+  
+}
+
+.current {
+  background-color: #FFD6E4;
+}
+
+a {
+    float: none;
+    display: block;
+   
+    }
+   
+   
+
+
+  @media (max-width: 1100px) { 
+    #logo { 
+        display: none; 
+   }  
+    .right {
+       max-height: 400px;
+       max-width: 100%;
+    }
+  }
+
+section{
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D2EBFA;
+}
+.container{
+  width: 70%;
+  max-width:1000px;
+  max-height: 500px;
+  margin: 0, auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+   
+}
+.left >img{
+  display: flex;
+  width:400px;
+  height: 440px;
+  border-radius: 15%;
+  margin-right: 100px;
+  margin-top:140px;
+  
+}
+.right{
+  width: 50%;
+  max-height: 400px;
+  background-color: #FFD6E4;
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 30px;
+  border-radius: 13%;
+  margin-left: -200px;
+  color: black;
+  border: #1186F2 3px solid;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vh;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top:5px;
+
+}
+  
+
+
+.btn{
+  text-decoration: none;
+  font-size: 26px;
+  text-transform: uppercase;
+  background-color: #1186F2;
+  color: #FFD6E4;
+  font-family: Shrikhand;
+  padding: 10px;
+  display: inline-block;
+  margin: 25%;
+  justify-content: center;
+  letter-spacing: 2px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form {
+  margin-top: -6px;
+  font-family: sans-serif;
+  justify-content: center;
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 1fr;
+  line-height: 20px;
+}
